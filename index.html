@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/style.css">
 
   <title>CnC Software Solutions</title>
-  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <link rel="icon" type="image/x-icon" href="images/logo_no_bg.png" style="background-color: #fff;">
   <script>// Import the functions you need from the SDKs you need
   import { initializeApp } from "firebase/app";
   import { getAnalytics } from "firebase/analytics";
@@ -61,10 +61,10 @@
         </div>
         <form id="servicereq" class="p-2" onsubmit="return !2">
           <div class="form-group">
-          <input type="text" id="p_name" class="form-control" placeholder="Patient Name" />
+          <input type="text" id="p_name" class="form-control" placeholder="Candidate Name" />
           </div>
           <div class="form-group">
-            <input type="text" id="p_age" class="form-control" placeholder="Patient Age" />
+            <input type="text" id="p_age" class="form-control" placeholder="Candidate Age" />
           </div>
           <div class="form-group">
             <select name="gender" id="gender" class="form-control">
@@ -75,24 +75,23 @@
             </select>
           </div>
           <div class="form-group">
-            <input type="text" id="p_number" class="form-control" placeholder="Patient Number" />
+            <input type="text" id="p_number" class="form-control" placeholder="Candidate Number" />
           </div>
           <div class="form-group">
-            <input type="text" id="p_email" class="form-control" placeholder="Patient Email" />
+            <input type="text" id="p_email" class="form-control" placeholder="Candidate Email" />
           </div>
-          <div class="form-group">
-            <input type="text" id="p_location" class="form-control" placeholder="Patient Location" />
-          </div>
+          <!-- <div class="form-group">
+            <input type="text" id="p_location" class="form-control" placeholder="Candidate Location" />
+          </div> -->
           <div class="form-group">
             <select name="" id="service" class="form-control">
-              <option value="">Select Service</option>
-              <option value="Care taker">Care taker</option>
-              <option value="Physiotheraphy">Pysiotherapy</option>
-              <option value="Care service">Care Services</option>
-              <option value="old age home">Old Age Home</option>
-              <option value="machinery medical">Machinery medical</option>
-              <option value="baby care">Baby Care</option>
-              <option value="Home nursing">Home Nursing</option>
+              <option value="">Select Trainings</option>
+              <option value="Web Development">Web Development</option>
+              <option value="App Development">App Development</option>
+              <option value="Graphic Designing">Graphic Designing</option>
+              <option value="SEO & Content Writing">SEO & Content Writing</option>
+              <option value="Digital Marketing">Digital Marketing</option>
+              <option value="UI/UX Designing">UI/UX Designing</option>
             </select>
           </div>
           <span style="color: red;display: none;" id="all_fields2">Fill all the fields</span>
@@ -156,14 +155,14 @@
     <div class="container" id="home">
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-6 col-md-9 text-center">
-          <div class="banner-content">
+          <!-- <div class="banner-content">
             <span>Vishakhapatnam & Hyderabad</span>
             <p>We are there to erase the problems of the patients.</p>
             <a class="video-btn" data-fancybox href="images/intro2.mp4">
               <i class="ti-control-play"></i>
               Watch our story
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -177,8 +176,7 @@
         <div class="col-lg-8 col-md-10 m-auto">
           <div class="sec-heading">
             <h3 class="sec-title" id="services">Our Trainings</h3>
-            <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every
-              wherein were meat kind wherein and martcin</p>
+            <p><b>Put yourself into the best place of world with our 24*7 support and training and see the world like never before.</b></p>
           </div>
         </div>
       </div>
@@ -405,7 +403,7 @@
           <div class="sec-heading">
             <img src="images/logo_no_bg.png" alt="">
             <span class="tagline">About CnC Software</span>
-              <p>We assure we will provide 100% good care towards the old people those who are in need of us</p>
+              <p>We assure we will provide 100% technical support whenever needed.Join us to unleash the zeal in you.</p>
           </div>
         </div>
       </div>
@@ -428,7 +426,7 @@
   <!-- Team section end -->
 
   <!-- Testimonial section start -->
-  <section class="testimonial" id="reviews">
+  <!-- <section class="testimonial" id="reviews">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 m-auto">
@@ -476,7 +474,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Testimonial section end -->
 
   <!-- Appointment section start -->
@@ -487,8 +485,7 @@
           <div class="col-lg-8 col-md-10 m-auto">
             <div class="sec-heading">
               <h3 class="sec-title">Careers</h3>
-              <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every
-                wherein were meat kind wherein and martcin</p>
+              <p>For a better future, join us and explore the world of technology as never before.</p>
             </div>
           </div>
         </div>
@@ -496,17 +493,17 @@
           <div class="col-lg-8 col-md-10 m-auto">
             <div class="sec-heading">
               <h3>JOIN WITH US</h3>
-              <button type="button" class="btn btn-success" style="background-color: #261c5a; border-color:#261c5a;" onClick="openform(1)">Apply</button>
+              <button type="button" class="btn btn-success" style="background-color: #261c5a; border-color:#261c5a; color:#fff" onClick="openform(1)">Apply</button>
             </div>
           </div>
         </div>
         <div id="formID" style="display: none;">
           <button type="button" class="btn btn-success"
             style="border-radius: 0;border-top-left-radius: 7px;border-top-right-radius: 7px;"
-            onClick="openform(2)" >Care Taker</button>
+            onClick="openform(2)" >Web Developer</button>
           <button type="button" class="btn btn-success" onClick="openform(3)"
-            style="border-radius: 0;">Physiotheraphy</button>
-          <button type="button" class="btn btn-success" onClick="openform(4)" style="border-radius: 0;">Nursing</button>
+            style="border-radius: 0;">App Developer</button>
+          <button type="button" class="btn btn-success" onClick="openform(4)" style="border-radius: 0;">Graphic Designer</button>
           <button type="button" class="btn btn-danger" onClick="openform(5)"
             style="border-radius: 0;border-bottom-right-radius: 7px;border-bottom-left-radius: 7px;">Close</button>
         </div>
@@ -523,7 +520,7 @@
                   <input type="text" class="form-control" id="name" placeholder="Enter Full Name" required />
                 </div>
                 <div class="form-group" style="flex: 45%;">
-                  <input type="text" class="form-control" id="fathername" placeholder="Father's/Husband Name"
+                  <input type="text" class="form-control" id="fathername" placeholder="Father's Name"
                     required />
                 </div>
               </div>
@@ -543,14 +540,14 @@
                   <input type="text" class="form-control" id="phone" placeholder="Mobile Number" required />
                 </div>
               </div>
-              <div class="d-flex flex-wrap" style="gap: 2px;">
+              <!-- <div class="d-flex flex-wrap" style="gap: 2px;">
                 <div class="form-group" style="flex: 30%;">
                   <input type="text" class="form-control" id="place" placeholder="Enter Native Place" required />
                 </div>
                 <div class="form-group" style="flex: 60%;">
                   <input type="text" class="form-control" id="address" placeholder="Address" required />
                 </div>
-              </div>
+              </div> -->
               <div class="d-flex flex-wrap" style="gap: 2px;">
                 <div class="form-group" style="flex: 45%;">
                   <input type="text" class="form-control" id="qualification" placeholder="Education Qualification"
@@ -560,35 +557,35 @@
                   <input type="text" class="form-control" id="language" placeholder="Enter Languages Known" required />
                 </div>
               </div>
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <input type="text" class="form-control" id="experience" placeholder="Previous Experience" required />
-              </div>
-              <div class="form-group">
+              </div> -->
+              <!-- <div class="form-group">
                 <select name="Branch" id="branch" class="form-control" required>
                   <option value="">Branch to Work At</option>
                   <option value="Vishakhapatnam">Vishakhapatnam</option>
                   <option value="Hyderabad">Hyderabad</option>
                 </select>
-              </div>
-              <div class="d-flex flex-wrap" style="gap: 2px;">
+              </div> -->
+              <!-- <div class="d-flex flex-wrap" style="gap: 2px;">
                 <div class="form-group" style="flex: 45%;">
                   <input type="text" class="form-control" id="religion" placeholder="Enter Religion" required />
                 </div>
                 <div class="form-group" style="flex: 45%;">
                   <input type="text" class="form-control" id="country" placeholder="Nationality" required />
                 </div>
-              </div>
+              </div> -->
               <div class="form-group">
                 <input type="text" class="form-control" id="aadhar" placeholder="Aadhar No." required />
               </div>
-              <div class="d-flex flex-wrap" style="gap: 2px;">
+              <!-- <div class="d-flex flex-wrap" style="gap: 2px;">
                 <div class="form-group" style="flex: 45%;">
                   <input type="text" class="form-control" id="account" placeholder="Bank Account No." required />
                 </div>
                 <div class="form-group" style="flex: 45%;">
                   <input type="text" class="form-control" id="ifsc" placeholder="IFSC Code" required />
                 </div>
-              </div>
+              </div> -->
               <span style="color: red;display: none;" id="all_fields">Fill all the fields</span>
               <button type="button" class="btn btn-danger" onClick="openform()">Close</button>
               <button type="submit" class="btn btn-success" id="submitID" onClick="sendEmail()">Submit</button>

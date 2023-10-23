@@ -105,6 +105,18 @@ section {
   margin-right: 10px;
 }
 
+.btn-success {
+  color: #020202;
+  background-color: #fffafa;
+  border-color: #f7f8f7;
+}
+
+.btn-danger{
+  color:#000;
+  background-color: #f5f8f8;
+  border-color: #f3f7f8;
+}
+
 .video-btn {
   color: #555;
   font-size: 15px;

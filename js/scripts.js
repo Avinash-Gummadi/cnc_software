@@ -79,19 +79,19 @@ function openform(option) {
     else if (parseInt(option) == 2) {
         $('#formID1')[0].style.display = 'block';
         $('#formID')[0].style.display = 'none';
-        tempjob = "Care Taker";
+        tempjob = "Web Developer";
         $('#form_div')[0].style.display = 'block';
     }
     else if (parseInt(option) == 3) {
         $('#formID1')[0].style.display = 'block';
         $('#formID')[0].style.display = 'none';
-        tempjob = "Physiotheraphy";
+        tempjob = "App Developer";
         $('#form_div')[0].style.display = 'block';
     }
     else if (parseInt(option) == 4) {
         $('#formID1')[0].style.display = 'block';
         $('#formID')[0].style.display = 'none';
-        tempjob = "Nursing";
+        tempjob = "Graphic Designer";
         $('#form_div')[0].style.display = 'block';
     }
     else if (parseInt(option) == 5) {
