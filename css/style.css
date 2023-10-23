@@ -112,9 +112,9 @@ section {
 }
 
 .btn-danger{
-  color:#000;
-  background-color: #f5f8f8;
-  border-color: #f3f7f8;
+  color: #000;
+  background-color: #d319008f;
+  border-color: #d319008f;
 }
 
 .video-btn {
@@ -313,6 +313,8 @@ section {
   background: #fff;
   left: 803px;
   z-index: 999;
+  box-shadow: 1px 1px 15px #ccc;
+  border-radius: 5px;
 }
 @media screen and (max-width: 767px) {
   .primary-menu .mobile-menu, .footer .foo-nav .mobile-menu {
