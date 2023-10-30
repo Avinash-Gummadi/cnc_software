@@ -163,7 +163,7 @@ section {
 .sec-heading .sec-title {
   color: #1e2528;
   font-size: 42px;
-  margin-bottom: 32px;
+  margin-bottom: 10px;
 }
 /* enquiry */
 #chat-circle {
@@ -238,8 +238,22 @@ section {
 }
 
 .sec-heading p {
-  color: #888;
   margin-bottom: 0;
+  font-size: 25px;
+  color: #111010;
+}
+
+.pdesign p{
+  background: #000;
+  font-size: 2em;
+  color: #d5c507;
+  text-shadow: 2px 0 rgb(250, 11, 11);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.office-certificates img{
+  width: 60px !important;
 }
 
 .header {
