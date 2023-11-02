@@ -79,7 +79,7 @@ function openform(option) {
     else if (parseInt(option) == 2) {
         $('#formID1')[0].style.display = 'block';
         $('#formID')[0].style.display = 'none';
-        tempjob = "Web Developer";
+        tempjob = "Java Faculty";
         $('#form_div')[0].style.display = 'block';
     }
     else if (parseInt(option) == 3) {
@@ -105,19 +105,19 @@ function openform(option) {
     }
 }
 
-function sendPatientEmail(){
+function sendCandidateEmail(){
     var formData2 = {
         pname: document.getElementById("p_name").value,
         pemail: document.getElementById("p_email").value,
         page: document.getElementById("p_age").value,
-        location: document.getElementById("p_location").value,
+        // location: document.getElementById("p_location").value,
         service: document.getElementById("service").value,
         gender: document.getElementById("gender").value,
         mobile: document.getElementById("p_number").value,
     }
-    if (formData2.pname!="" && formData2.pemail!="" && formData2.page!="" && formData2.location!="" && formData2.service!="" && formData2.gender!="" && formData2.mobile!="") {
-        const serviceId = "service_10ufs0u"
-        const templateId = "template_caxfivs"
+    if (formData2.pname!="" && formData2.pemail!="" && formData2.page!="" && formData2.service!="" && formData2.gender!="" && formData2.mobile!="") {
+        const serviceId = "service_u2646wr"
+        const templateId = "template_3drb5ku"
         $('#servicereq').addClass('opacity-25');
         $('#formtwoload')[0].style.display = 'block';
         emailjs.send(serviceId, templateId, formData2).then(
