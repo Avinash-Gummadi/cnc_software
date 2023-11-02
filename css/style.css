@@ -243,17 +243,8 @@ section {
   color: #111010;
 }
 
-.pdesign p{
-  background: #000;
-  font-size: 2em;
-  color: #d5c507;
-  text-shadow: 2px 0 rgb(250, 11, 11);
-  padding: 5px;
-  border-radius: 5px;
-}
-
 .office-certificates img{
-  width: 60px !important;
+  width: 84px !important;
 }
 
 .header {
@@ -269,7 +260,7 @@ section {
 }
 .fix-menu {
   position: fixed;
-  top: 45%;
+  top: 50%;
   right: 0;
   width: 47px;
   z-index: 999;
@@ -430,6 +421,7 @@ section {
   margin: auto;
   max-width: 1415px;
   margin-top: 190px;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -449,7 +441,7 @@ section {
   }
 }
 
-.banner span {
+.banner span, .pdesign p {
   display: block;
   font-family: "Rufina", serif;
   letter-spacing: 1.5px;
@@ -568,7 +560,7 @@ section {
   top: 200px;
 }
 a.email-a:hover{
-  color: #068212 !important;
+  color: #8aff96 !important;
   text-decoration: underline !important;
 }
 @media screen and (max-width: 767px) {
