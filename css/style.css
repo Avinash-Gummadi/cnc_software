@@ -118,9 +118,9 @@ section {
 }
 
 .video-btn {
-  color: #555;
-  font-size: 15px;
-  font-weight: 400;
+  color: #5dff6b;
+  font-size: 25px;
+  font-weight: 900;
 }
 
 .video-btn:hover {
@@ -129,14 +129,15 @@ section {
 
 .video-btn i {
   border-radius: 50%;
-  background-color: #fcf5ee;
-  color: #ff817e;
+  background-color: #4b4bd0;
+  color: #ffffff;
   display: inline-block;
   line-height: 44px;
   text-align: center;
   margin-right: 10px;
   height: 44px;
   width: 44px;
+  font-weight: bold;
 }
 
 .sec-heading {
