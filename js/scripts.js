@@ -85,16 +85,48 @@ function openform(option) {
     else if (parseInt(option) == 3) {
         $('#formID1')[0].style.display = 'block';
         $('#formID')[0].style.display = 'none';
-        tempjob = "App Developer";
+        tempjob = "C, C++ Faculty";
         $('#form_div')[0].style.display = 'block';
     }
     else if (parseInt(option) == 4) {
         $('#formID1')[0].style.display = 'block';
         $('#formID')[0].style.display = 'none';
-        tempjob = "Graphic Designer";
+        tempjob = "Python Faculty";
         $('#form_div')[0].style.display = 'block';
     }
     else if (parseInt(option) == 5) {
+        $('#formID1')[0].style.display = 'block';
+        $('#formID')[0].style.display = 'none';
+        tempjob = "Hadoop Faculty";
+        $('#form_div')[0].style.display = 'block';
+    }
+    else if (parseInt(option) == 6) {
+        $('#formID1')[0].style.display = 'block';
+        $('#formID')[0].style.display = 'none';
+        tempjob = "Data Science Faculty";
+        $('#form_div')[0].style.display = 'block';
+    }
+    else if (parseInt(option) == 7) {
+        $('#formID1')[0].style.display = 'block';
+        $('#formID')[0].style.display = 'none';
+        tempjob = "Digital Marketing Faculty";
+        $('#form_div')[0].style.display = 'block';
+    }
+    else if (parseInt(option) == 8) {
+        $('#formID1')[0].style.display = 'block';
+        $('#formID')[0].style.display = 'none';
+        tempjob = "DevOps Faculty";
+        $('#form_div')[0].style.display = 'block';
+    }
+    else if (parseInt(option) == 9) {
+        $('#formID1')[0].style.display = 'block';
+        $('#formID')[0].style.display = 'none';
+        tempjob = "MS .Net Faculty";
+        $('#form_div')[0].style.display = 'block';
+    }
+    
+
+    else if (parseInt(option) == 10) {
         $('#formID')[0].style.display = 'none';    
     }
     else {
@@ -120,7 +152,7 @@ function sendCandidateEmail(){
         const templateId = "template_3drb5ku"
         $('#servicereq').addClass('opacity-25');
         $('#formtwoload')[0].style.display = 'block';
-        emailjs.send(serviceId, templateId, formData2).then(
+        emailjs.send(serviceId, templateId, formData2, 'qCLR5Lvey5ITKraIk').then(
             res => {
                 document.getElementById('servicereq').reset();
                 $('#servicereq').removeClass('opacity-25');
@@ -143,26 +175,20 @@ function sendEmail() {
         fathername: document.getElementById("fathername").value,
         dob: document.getElementById("dob").value,
         age: age,
-        place: document.getElementById("place").value,
         qualification: document.getElementById("qualification").value,
         experience: document.getElementById("experience").value,
         address: document.getElementById("address").value,
         language: document.getElementById("language").value,
-        country: document.getElementById("country").value,
+        
         aadhar: document.getElementById("aadhar").value,
-        account: document.getElementById("account").value,
-        ifsc: document.getElementById("ifsc").value,
-        branch: document.getElementById("branch").value,
-        religion: document.getElementById("religion").value,
         phone: document.getElementById("phone").value,
     };
 
-    if (formData.name != "" && formData.email != "" && formData.language != "" && formData.country != "" &&
-        formData.aadhar != "" && formData.account != "" && formData.ifsc != "" && formData.branch != "" &&
-        formData.religion != "" && formData.phone != "" && formData.job != "" && formData.fathername != "" &&
-        formData.place != "" && formData.qualification != "" && formData.experience != "" && formData.address != "") {
-        const serviceId = "service_10ufs0u"
-        const templateId = "template_srpkeyd"
+    if (formData.name != "" && formData.email != "" && formData.language != "" && formData.aadhar != "" && 
+        formData.fathername != "" && formData.qualification != "" && formData.experience != "" && 
+        formData.address != "" && formData.phone != "" && formData.job != "") {
+        const serviceId = "service_u2646wr"
+        const templateId = "template_r3mc06g"
         $('.modal-backdrop').addClass('show');
         $('#shadeblack')[0].style.display = 'block';
         $('#spinner').css('display', 'flex');

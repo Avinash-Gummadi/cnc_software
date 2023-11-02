@@ -15,33 +15,11 @@
 
   <title>CnC Software Solutions</title>
   <link rel="icon" type="image/x-icon" href="images/logo_no_bg.png" style="background-color: #fff;">
-  <script>// Import the functions you need from the SDKs you need
-  import { initializeApp } from "firebase/app";
-  import { getAnalytics } from "firebase/analytics";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
   
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyAEjQrcoqtJGqolAiZSe6IirY_yafQoF8I",
-    authDomain: "carencure-7f24d.firebaseapp.com",
-    databaseURL: "https://carencure-7f24d-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "carencure-7f24d",
-    storageBucket: "carencure-7f24d.appspot.com",
-    messagingSenderId: "109591154583",
-    appId: "1:109591154583:web:fe93bd642d48ad17a73ed2",
-    measurementId: "G-831VD7G0L0"
-  };
-  
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script type="text/javascript">
     (function () {
-      emailjs.init("eFRF_eDmoCkh9VpYY");
+      emailjs.init("qCLR5Lvey5ITKraIk");
     })();
   </script>
 </head>
@@ -494,8 +472,41 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 m-auto">
             <div class="sec-heading">
-             |
-             orm class="col-md-8 py-3" onsubmit="return !2" id="formID1" style="display: none;">
+              <h3 class="sec-title">Careers</h3>
+              <p>For a better future, join us and explore the world of technology as never before.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 col-md-10 m-auto">
+            <div class="sec-heading">
+              <h3>JOIN WITH US</h3>
+              <button type="button" class="btn btn-success" style="background-color: #261c5a; border-color:#261c5a; color:#fff" onClick="openform(1)">Apply</button>
+            </div>
+          </div>
+        </div>
+        <div id="formID" style="display: none;">
+          <button type="button" class="btn btn-success"
+            style="border-radius: 0;border-top-left-radius: 7px;border-top-right-radius: 7px;"
+            onClick="openform(2)" >Java Faculty</button>
+          <button type="button" class="btn btn-success" onClick="openform(3)"
+            style="border-radius: 0;">C, C++ Faculty</button>
+          <button type="button" class="btn btn-success" onClick="openform(4)"
+            style="border-radius: 0;">Python Faculty</button>
+          <button type="button" class="btn btn-success" onClick="openform(5)"
+            style="border-radius: 0;">Hadoop Faculty</button>
+          <button type="button" class="btn btn-success" onClick="openform(6)"
+            style="border-radius: 0;">Data Science Faculty</button>
+          <button type="button" class="btn btn-success" onClick="openform(7)"
+            style="border-radius: 0;">Digital Marketing Faculty</button>
+          <button type="button" class="btn btn-success" onClick="openform(8)"
+            style="border-radius: 0;">DevOps Faculty</button>
+          <button type="button" class="btn btn-success" onClick="openform(9)" style="border-radius: 0;">MS .Net Faculty</button>
+          <button type="button" class="btn btn-danger" onClick="openform(10)"
+            style="border-radius: 0;border-bottom-right-radius: 7px;border-bottom-left-radius: 7px;">Close</button>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <form class="col-md-8 py-3" onsubmit="return !2" id="formID1" style="display: none;">
             <div id="succ_rply" class="text-center" style="display: none;">
               <h1>Your response recorded successfully</h1>
               <button type="button" class="btn btn-danger" onClick="openform()">Close</button>
