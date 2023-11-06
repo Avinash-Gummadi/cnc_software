@@ -77,7 +77,7 @@ section {
   background-color: #f1fff1;
 }
 .bg-theme-green {
-  background-color: #302551;
+  background-color: rgba(0,81,1,255);
 }
 
 .btn:disabled {
@@ -269,12 +269,12 @@ section {
 }
 .fix-menu span{
   display: block;
-  color: #3b349d;
+  color: rgba(0,81,1,255);
   font-size: 32px;
 }
 
 .fix-menu span:hover{
-  color: #3b349d !important;
+  color: rgba(0,81,1,255) !important;
   scale: 1.1;
 }
 .logo {
@@ -297,7 +297,7 @@ section {
 .heading-h2 {
   font-family: "Roboto", sans-serif;
   font-size: 32px;
-  color: #495057;
+  color: rgba(0,81,1,255);
   font-weight: 900;
 }
 .counter-v1 .number-wrap .number {
@@ -550,6 +550,8 @@ section {
     margin-left: -22px;
   }
   .testimonial .single-tst img {
+    margin-left: 10em;
+    width: 75%;
     height: 120px !important;
   }
 }
@@ -765,7 +767,8 @@ a.email-a:hover{
 }
 
 .testimonial .single-tst img {
-  width: 100%;
+  margin-left: 10em;
+  width: 75%;
   height: 250px;
 }
 
