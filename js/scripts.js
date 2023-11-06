@@ -124,8 +124,6 @@ function openform(option) {
         tempjob = "MS .Net Faculty";
         $('#form_div')[0].style.display = 'block';
     }
-    
-
     else if (parseInt(option) == 10) {
         $('#formID')[0].style.display = 'none';    
     }
