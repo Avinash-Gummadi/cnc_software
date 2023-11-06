@@ -146,8 +146,8 @@ function sendCandidateEmail(){
         mobile: document.getElementById("p_number").value,
     }
     if (formData2.pname!="" && formData2.pemail!="" && formData2.page!="" && formData2.service!="" && formData2.gender!="" && formData2.mobile!="") {
-        const serviceId = "service_u2646wr"
-        const templateId = "template_3drb5ku"
+        const serviceId = "service_c67jmcr"
+        const templateId = "template_791fkqq"
         $('#servicereq').addClass('opacity-25');
         $('#formtwoload')[0].style.display = 'block';
         emailjs.send(serviceId, templateId, formData2, 'qCLR5Lvey5ITKraIk').then(
@@ -185,8 +185,8 @@ function sendEmail() {
     if (formData.name != "" && formData.email != "" && formData.language != "" && formData.aadhar != "" && 
         formData.fathername != "" && formData.qualification != "" && formData.experience != "" && 
         formData.address != "" && formData.phone != "" && formData.job != "") {
-        const serviceId = "service_u2646wr"
-        const templateId = "template_r3mc06g"
+        const serviceId = "service_c67jmcr"
+        const templateId = "template_stv48sj"
         $('.modal-backdrop').addClass('show');
         $('#shadeblack')[0].style.display = 'block';
         $('#spinner').css('display', 'flex');
