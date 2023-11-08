@@ -16,6 +16,30 @@
   <title>CnC Software Solutions</title>
   <link rel="icon" type="image/x-icon" href="images/logo_no_bg.png" style="background-color: #fff;">
 
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAaJO3Kh1MMe1hd9us57KBUt8zq_7Yh8Ck",
+      authDomain: "cnc-software-solutions.firebaseapp.com",
+      projectId: "cnc-software-solutions",
+      storageBucket: "cnc-software-solutions.appspot.com",
+      messagingSenderId: "373199506936",
+      appId: "1:373199506936:web:9177a23a225b5859d31a0d",
+      measurementId: "G-QT9V67HTN7"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script type="text/javascript">
     (function () {
