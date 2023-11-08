@@ -66,6 +66,9 @@ section {
   .nopadd-rth {
     padding-right: 0;
   }
+  
+  
+
   .nopadd {
     padding-left: 0;
     padding-right: 0;
@@ -240,7 +243,7 @@ section {
 
 .sec-heading p {
   margin-bottom: 0;
-  font-size: 25px;
+  font-size: 1.5em;
   color: #111010;
 }
 
@@ -314,10 +317,10 @@ section {
 }
 #formID{
   position: absolute;
-  top: 285px;
+  top: 15.75em;
   flex-direction: column;
   background: #fff;
-  left: 45rem;
+  left: 36.5rem;
   z-index: 999;
   box-shadow: 1px 1px 15px #ccc;
   border-radius: 5px;
@@ -1161,7 +1164,7 @@ a.email-a:hover{
     font-size: 18px !important;
 }
 #formID {
-  top: 278px;
+  top: 250px;
   left: 115px !important;
 }
 }
